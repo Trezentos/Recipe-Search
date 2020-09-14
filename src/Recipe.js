@@ -1,9 +1,10 @@
-import React from 'react'
 import style from './recipe.module.css'
+import React from 'react'
 
 const Recipe = ({title, image, ingredients}) =>{
 
     return (
+        
         <div className = {style.recipe}>
             <h1 >{title}</h1>
             <ol>
